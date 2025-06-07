@@ -14574,7 +14574,7 @@ textarea.form-control-lg {
 .login-content .login-box {
   position: relative;
   min-width: 350px;
-  min-height: 390px;
+  min-height: 360px;
   background-color: #fff;
   -webkit-box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
@@ -14628,7 +14628,7 @@ textarea.form-control-lg {
           transform: rotateY(180deg);
 }
 .login-content .login-box.flipped {
-  min-height: 300px;
+  min-height: 320px;
 }
 .login-content .login-box.flipped .login-form {
   opacity: 0;
@@ -14719,6 +14719,9 @@ textarea.form-control-lg {
           flex-direction: column;
   min-height: calc(100vh - 110px);
   margin-bottom: 0;
+}
+.page-error.with-header {
+  min-height: calc(100vh - 200px) !important;
 }
 .page-error h1, .page-error .h1 {
   margin: 10px;
